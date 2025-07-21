@@ -1,0 +1,31 @@
+{
+  "name": "@grandgular/link",
+  "version": "0.1.0-beta.0",
+  "description": "Angular service for managing HTML `<link>` elements in the document head. Provides a type-safe API to dynamically add, update, query, and remove link elements.",
+  "peerDependencies": {
+    "@angular/common": ">=16.0.0 <21.0.0",
+    "@angular/core": ">=16.0.0 <21.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "keywords": [
+    "angular",
+    "seo",
+    "link",
+    "<link>",
+    "grandgular",
+    "canonical",
+    "tag",
+    "alternate"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Grandgular/link.git"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
