@@ -1,7 +1,7 @@
 {
   "name": "@grandgular/link",
-  "version": "0.1.0-beta.0",
-  "description": "Angular service for managing HTML `<link>` elements in the document head. Provides a type-safe API to dynamically add, update, query, and remove link elements.",
+  "version": "1.0.0",
+  "description": "Professional Angular service for managing HTML <link> elements in the document head. Provides a type-safe API to dynamically add, update, query, and remove link elements for SEO, canonical tags, preloading, and resource hints.",
   "peerDependencies": {
     "@angular/common": ">=16.0.0 <21.0.0",
     "@angular/core": ">=16.0.0 <21.0.0"
@@ -14,17 +14,33 @@
     "angular",
     "seo",
     "link",
-    "<link>",
-    "grandgular",
     "canonical",
-    "tag",
-    "alternate"
+    "preload",
+    "prefetch",
+    "dns-prefetch",
+    "resource-hints",
+    "meta",
+    "ssr",
+    "universal",
+    "performance",
+    "head",
+    "document",
+    "type-safe",
+    "grandgular"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Grandgular/link.git"
   },
+  "homepage": "https://github.com/Grandgular/link#readme",
+  "bugs": {
+    "url": "https://github.com/Grandgular/link/issues"
+  },
   "license": "MIT",
+  "author": {
+    "name": "Grandgular Team",
+    "url": "https://github.com/Grandgular"
+  },
   "publishConfig": {
     "access": "public"
   }
