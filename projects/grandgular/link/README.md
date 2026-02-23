@@ -5,6 +5,10 @@
 
 Angular service for managing HTML `<link>` elements in the document head. Provides a type-safe API to dynamically add, update, query, and remove link elements.
 
+# v1.0.0 - Stable Release
+
+✅ **Production Ready** - The library has been battle-tested during the beta period and is now stable for production use.
+
 ## Features
 
 - 🛠️ Full control over `<link>` elements
