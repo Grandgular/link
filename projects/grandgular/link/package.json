@@ -1,6 +1,6 @@
 {
   "name": "@grandgular/link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Professional Angular service for managing HTML <link> elements in the document head. Provides a type-safe API to dynamically add, update, query, and remove link elements for SEO, canonical tags, preloading, and resource hints.",
   "peerDependencies": {
     "@angular/common": ">=16.0.0 <21.0.0",
