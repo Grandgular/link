@@ -5,6 +5,8 @@
 
 Angular service for managing HTML `<link>` elements in the document head. Provides a type-safe API to dynamically add, update, query, and remove link elements.
 
+This package **complements** Angular’s built-in [`Title`](https://angular.dev/api/platform-browser/Title) and [`Meta`](https://angular.dev/api/platform-browser/Meta) from `@angular/platform-browser`. Use **`Meta`** for `<meta>` tags (description, Open Graph, etc.), **`Title`** for the document title, and **`Link`** from `@grandgular/link` for `<link>` tags (canonical, preconnect, preload, alternates, stylesheets). It does **not** replace `Meta`.
+
 # v1.0.0 - Stable Release
 
 ✅ **Production Ready** - The library has been battle-tested during the beta period and is now stable for production use.
@@ -140,6 +142,12 @@ Type representing all possible <link> attributes including:
 | `removeTag(attrSelector: string)` | Removes link element matching the attribute selector. |
 | `removeTagElement(link: HTMLLinkElement)` | Removes specific link element from DOM. |
 
+## Maintenance
+
+When upgrading Angular (especially major versions):
+
+1. Run the full test suite (`ng test` / your CI pipeline for this library).
+2. If `Meta` matching or selector behavior changes in `@angular/platform-browser`, compare with this library’s `Link` implementation (attribute selectors and deduplication) and adjust tests or implementation if needed.
 
 ## License
 

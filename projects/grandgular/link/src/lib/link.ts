@@ -3,7 +3,7 @@ import { inject, Injectable, RendererFactory2 } from '@angular/core';
 
 /**
  * Represents attributes for an HTML `<link>` element.
- * @see [HTML meta tag](https://developer.mozilla.org/docs/Web/HTML/Element/link)
+ * @see [HTML link element](https://developer.mozilla.org/docs/Web/HTML/Element/link)
  */
 export type LinkDefinition = {
   charset?: string;
@@ -29,7 +29,7 @@ export type LinkDefinition = {
  * Service for managing HTML `<link>` elements in document head.
  * Provides methods to add, update, query and remove link elements.
  *
- * @see [HTML meta tag](https://developer.mozilla.org/docs/Web/HTML/Element/link)
+ * @see [HTML link element](https://developer.mozilla.org/docs/Web/HTML/Element/link)
  * @see {@link Link}
  *
  * @example
